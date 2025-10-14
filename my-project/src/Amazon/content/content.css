@@ -1,0 +1,134 @@
+*{
+    gap: 0;
+    margin: 0;
+    padding: 0;
+}
+.content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600px; /* match carousel height */
+    display: flex;
+    margin-top: 27%;
+    z-index: 20; /* above carousel and arrows */
+}
+.content-1{
+    background-color: white;
+    width: 24%;
+    height: 400px;
+    margin-left: 20px;
+    padding-top: 10px;
+    display: grid;
+    margin-top: -20px;
+    grid-template-rows: repeat(3, auto);
+}
+.content-1 h3{
+    text-align: center;
+    font-size: 23px;
+}
+.row-img{
+    width: 90%;
+    height: 300px;
+    margin: auto;
+}
+.all-offer{
+    color: rgb(44, 44, 247);
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 12px;
+
+}
+.content-2{
+    background-color: white;
+    width: 24%;
+    height: 400px;
+    margin-left: 20px;
+    padding-top: 10px;
+    display: grid;
+    margin-top: -20px;
+    grid-template-rows: repeat(3, auto);
+}
+.content-2 h3{
+    text-align: center;
+    font-size: 23px;
+}
+.content-3{
+    background-color: white;
+    width: 24%;
+    height: 400px;
+    margin-left: 20px;
+    padding-top: 10px;
+    margin-top: -20px;
+}
+.content-3 h3{
+    text-align: center;
+    font-size: 23px;
+}
+.row-img1{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 160px;
+}
+.essential{
+    margin-left: 10px;
+    font-size: 12px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.essential-section{
+    display: inline-block;    
+}
+.essential-section1{
+    display: inline-block;    
+}
+.essential-section2{
+    display: inline-block;    
+}
+.essential-section3{
+    display: inline-block;    
+}
+/* sign-in section */
+.sign-in-1{
+    background-color: white;
+    width: 22%;
+    height: 150px;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+.sign-in-1 p{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 28px;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sign-in-btn{
+    background-color: #ffd814;
+    border: 1px solid;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 320px;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.sign-in-btn:hover{
+    background-color: #f7ca00;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Sponsored img{
+    position: absolute;
+    height: 240px;
+    width: 300px;
+    margin-top: 140px;
+    margin-left: -320px;
+}
+.all-offer:hover{
+    color: #01359e;
+    cursor: pointer;
+}

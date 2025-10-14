@@ -1,0 +1,66 @@
+.carosal-img {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carosal-img img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+.fade-in {
+  opacity: 1;
+  transition: opacity 0.5s;
+  z-index: 1;
+  animation: fadeIn 0.5s;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s;
+  z-index: 0;
+  animation: fadeOut 0.5s;
+}
+
+.carosal-arrow-lft {
+  position: absolute;
+  left: 20px;
+  top: 20%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: rgb(238, 237, 237);
+  font-size: 50px;
+  z-index: 10;
+  user-select: none;
+}
+
+.arrow-right {
+  position: absolute;
+  right: 20px;
+  top: 20%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: rgb(238, 237, 237);
+  font-size: 50px;
+  z-index: 10;
+  user-select: none;
+}
