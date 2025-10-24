@@ -19,7 +19,7 @@ function App() {
           path="/"
           element={
             <>
-              <Slider />
+              <Slider/>
               <Carosal/>
               <Content />
             </>
